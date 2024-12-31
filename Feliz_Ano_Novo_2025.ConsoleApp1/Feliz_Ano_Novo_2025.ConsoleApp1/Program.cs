@@ -100,7 +100,7 @@ class Program
         // Configurar a codificação UTF-8 para suporte a emojis
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        string musicPath = @"C:\Users\Acer\Documents\0.0 - C#_Curso\Feliz_2025\Feliz_Ano_Novo_2025.ConsoleApp1\Feliz_Ano_Novo_2025.ConsoleApp1\music\2025.wav";
+        string musicPath = @"C:\Users\Acer\Documents\0.0 - C#_Curso\Feliz_2025\Feliz_Ano_Novo_2025\Feliz_Ano_Novo_2025.ConsoleApp1\Feliz_Ano_Novo_2025.ConsoleApp1\music\2025.wav";
 
         // Reproduz música em segundo plano
         Thread musicThread = new Thread(() => PlayMusic(musicPath));
